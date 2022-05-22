@@ -1,5 +1,21 @@
-.header-img{
-    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png");
-    width: 10em;
-    height: 10px;
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.nav-link:hover{
+    background-color: violet;
+    border-radius: 15%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+form{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
